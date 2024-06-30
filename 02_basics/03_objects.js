@@ -20,3 +20,7 @@ console.log(Juser["email"])
 console.log(Juser["fullName"])
 console.log(typeof Juser[mySym])
 
+
+
+
+
