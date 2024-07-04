@@ -52,10 +52,38 @@ const users = [
 ]
 
 users[1].email
-console.log(tinderUser)
+// console.log(tinderUser)
 
-console.log(Object.keys(tinderUser))
-console.log(Object.values(tinderUser))
-console.log(Object.entries(tinderUser))
+// console.log(Object.keys(tinderUser))
+// console.log(Object.values(tinderUser))
+// console.log(Object.entries(tinderUser))
 
-console.log(tinderUser.hasOwnProperty('isLogged'))
+// console.log(tinderUser.hasOwnProperty('isLogged'))
+
+const course = {
+    coursename : " Js in Hindi",
+    price: "99",
+    courseInstructor:"uday"
+
+}
+// objecr de-structuring
+// course.courseInstructor
+
+// const { courseInstructor }= course
+const { courseInstructor: instructor }= course // u can name it as instructor too coz its too long
+
+// console.log(courseInstructor)
+console.log(instructor)
+
+// {
+//    "name":"uday",
+//     "coursename": "js in hindi",
+//     "price":"free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
+
